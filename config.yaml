@@ -3,5 +3,6 @@ github:
     canonical:
       chisel-releases:
         review-count: 2
+        tab-name: chisel-releases
       oci-factory:
         review-count: 2
