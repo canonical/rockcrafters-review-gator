@@ -17,13 +17,9 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v6
-        with:
-          python-version: "3.12"
-          cache: "pip" # caching pip dependencies
-
       - name: Build review-gator
         run: |
+          sudo apt install -y python3-virtualenv
           virtualenv -p python3 --system-site-packages .venv
           source .venv/bin/activate
           pip install -e .
