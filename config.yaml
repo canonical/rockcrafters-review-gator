@@ -1,0 +1,7 @@
+github:
+  repos:
+    canonical:
+      chisel-releases:
+        review-count: 2
+      oci-factory:
+        review-count: 2
