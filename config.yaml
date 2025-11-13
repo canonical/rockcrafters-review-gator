@@ -6,3 +6,4 @@ github:
         tab-name: chisel-releases
       oci-factory:
         review-count: 2
+        tab-name: oci-factory
